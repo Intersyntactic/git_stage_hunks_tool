@@ -1,0 +1,13 @@
+name: git_stage_hunks_tool
+description: >
+  A tool that stages PART of a file, like `git add -p`, for agents with no
+  terminal: list a file's hunks, numbered, then stage the ones you choose.
+version: 0.1.0
+repository: https://github.com/intersyntactic/git_stage_hunks_tool
+publish_to: none
+
+environment:
+  sdk: ^3.13.0
+
+dev_dependencies:
+  test: ^1.25.0
